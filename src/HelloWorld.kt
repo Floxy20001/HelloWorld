@@ -2,6 +2,10 @@ import java.util.*
 
 fun IntRange.random() = Random().nextInt((endInclusive + 1) - start) +  start
 
+/*
+ * Author: Florian Meinschad
+ */
+
 fun main (args: Array<String>)
 {
     while (true)
